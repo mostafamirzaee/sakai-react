@@ -1,0 +1,29 @@
+.form-demo .card {
+    min-width: 450px;
+}
+.form-demo .card form {
+    margin-top: 2rem;
+}
+.form-demo .card .p-field {
+    margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+    .form-demo .card {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .form-demo .card {
+        width: 100%;
+        min-width: 0;
+    }
+}
+   
+.p-float-label input:focus ~ label, .p-float-label input.p-filled ~ label, .p-float-label textarea:focus ~ label, .p-float-label textarea.p-filled ~ label, .p-float-label .p-inputwrapper-focus ~ label, .p-float-label .p-inputwrapper-filled ~ label {
+    top: -0.5rem !important;
+    font-size: 12px;
+    background-color: #ffffff;
+    padding: 2px 4px;
+    margin-left: -4px;
+    margin-top: 0;
+}
